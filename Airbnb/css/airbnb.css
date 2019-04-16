@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+body {
+margin: 0;
+font-family: "Roboto";
+font-weight: 400;
+}
+
+ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+header {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: stretch;
+height: 600px;
+}
+
+nav {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+
+nav img {
+width: 100px;
+margin-top: 15px;
+margin-left: 15px;
+}
+
+nav ul {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+width: 470px;
+height: 60px;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+padding: 7px 15px;
+}
+
+.cadre {
+border: 2px solid white;
+}
+
+.cadre:hover {
+background-color: rgba(0,0,0,0.35);
+}
+
+#slogan {
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+h1 {
+text-transform: uppercase;
+font-size: 3.8rem;
+margin: 0;
+}
+
+h1 + p {
+margin-top: 5px;
+font-weight: 700;
+}
+
+#slogan a {
+color: white;
+text-decoration: none;
+font-weight: 700;
+background-color: rgba(255,255,255,0.35);
+padding: 10px 25px;
+}
+
+#slogan a:hover {
+background-color: rgba(0,0,0,0.35);
+}
+
+form {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+background-color: rgba(0,0,0,0.5);
+height: 100px;
+}
+
+#search {
+width: 835px;
+height: 45px;
+padding: 5px;
+}
+
+header [type="submit"] {
+width: 140px;
+height: 45px;
+color: white;
+font-weight: 700;
+background-color: #FF5A5F;
+border: 0;
+}
+
+main {
+background-color: #EDEFED;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+}
+
+h2 {
+margin: 0;
+padding-top: 40px;
+font-size: 1.8rem;
+color: #565A5C;
+}
+
+section {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+}
+
+#villes {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+#villes a {
+margin: 20px;
+width: 300px;
+height: 300px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+color: white;
+font-size: 1.8rem;
+font-weight: 700;
+}
+
+#villes a:first-child {
+background: url("../img/lille.jpg") no-repeat;
+background-size: 100%;
+background-position: center;
+}
+
+#villes a:nth-child(2) {
+background: url("../img/bruxelles.jpg") no-repeat;
+background-size: 100%;
+background-position: center;
+}
+
+#villes a:last-child {
+background: url("../img/londres.jpg") no-repeat;
+background-size: 100%;
+background-position: center;
+}
+
+section p a {
+color: #565A5C;
+font-weight: 700;
+background-color: white;
+border: 1px solid black;
+width: 300px;
+height: 40px;
+text-decoration: none;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin-bottom: 40px;
+}
+
+footer {
+background-color: black;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+height: 100px;
+color: white;
+}
+
+video {
+width: 100%;
+position: absolute;
+top: 0;
+left: 0;
+z-index: -1;
+}
